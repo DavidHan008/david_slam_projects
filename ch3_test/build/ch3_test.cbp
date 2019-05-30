@@ -85,12 +85,63 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ch3_use_geometry_main">
+				<Option output="/home/davidhan/david_slam_projects/ch3_test/build/ch3_use_geometry_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/davidhan/david_slam_projects/ch3_test/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 ch3_use_geometry_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ch3_use_geometry_main/fast">
+				<Option output="/home/davidhan/david_slam_projects/ch3_test/build/ch3_use_geometry_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/davidhan/david_slam_projects/ch3_test/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 ch3_use_geometry_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/davidhan/david_slam_projects/ch3_test/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/davidhan/david_slam_projects/ch3_test/ch3_use_eigen.cpp">
 			<Option target="ch3_use_eigen_main"/>
 		</Unit>
 		<Unit filename="/home/davidhan/david_slam_projects/ch3_test/ch3_use_eigen.h">
 			<Option target="ch3_use_eigen_main"/>
+		</Unit>
+		<Unit filename="/home/davidhan/david_slam_projects/ch3_test/ch3_use_geometry.cpp">
+			<Option target="ch3_use_geometry_main"/>
 		</Unit>
 		<Unit filename="/home/davidhan/david_slam_projects/ch3_test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

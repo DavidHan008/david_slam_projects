@@ -1,3 +1,4 @@
 /home/davidhan/david_slam_projects/ch3_test/build/CMakeFiles/rebuild_cache.dir
 /home/davidhan/david_slam_projects/ch3_test/build/CMakeFiles/ch3_use_eigen_main.dir
 /home/davidhan/david_slam_projects/ch3_test/build/CMakeFiles/edit_cache.dir
+/home/davidhan/david_slam_projects/ch3_test/build/CMakeFiles/ch3_use_geometry_main.dir

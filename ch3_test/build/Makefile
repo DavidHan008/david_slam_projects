@@ -123,6 +123,19 @@ ch3_use_eigen_main/fast:
 	$(MAKE) -f CMakeFiles/ch3_use_eigen_main.dir/build.make CMakeFiles/ch3_use_eigen_main.dir/build
 .PHONY : ch3_use_eigen_main/fast
 
+#=============================================================================
+# Target rules for targets named ch3_use_geometry_main
+
+# Build rule for target.
+ch3_use_geometry_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch3_use_geometry_main
+.PHONY : ch3_use_geometry_main
+
+# fast build rule for target.
+ch3_use_geometry_main/fast:
+	$(MAKE) -f CMakeFiles/ch3_use_geometry_main.dir/build.make CMakeFiles/ch3_use_geometry_main.dir/build
+.PHONY : ch3_use_geometry_main/fast
+
 ch3_use_eigen.o: ch3_use_eigen.cpp.o
 
 .PHONY : ch3_use_eigen.o
@@ -150,6 +163,33 @@ ch3_use_eigen.cpp.s:
 	$(MAKE) -f CMakeFiles/ch3_use_eigen_main.dir/build.make CMakeFiles/ch3_use_eigen_main.dir/ch3_use_eigen.cpp.s
 .PHONY : ch3_use_eigen.cpp.s
 
+ch3_use_geometry.o: ch3_use_geometry.cpp.o
+
+.PHONY : ch3_use_geometry.o
+
+# target to build an object file
+ch3_use_geometry.cpp.o:
+	$(MAKE) -f CMakeFiles/ch3_use_geometry_main.dir/build.make CMakeFiles/ch3_use_geometry_main.dir/ch3_use_geometry.cpp.o
+.PHONY : ch3_use_geometry.cpp.o
+
+ch3_use_geometry.i: ch3_use_geometry.cpp.i
+
+.PHONY : ch3_use_geometry.i
+
+# target to preprocess a source file
+ch3_use_geometry.cpp.i:
+	$(MAKE) -f CMakeFiles/ch3_use_geometry_main.dir/build.make CMakeFiles/ch3_use_geometry_main.dir/ch3_use_geometry.cpp.i
+.PHONY : ch3_use_geometry.cpp.i
+
+ch3_use_geometry.s: ch3_use_geometry.cpp.s
+
+.PHONY : ch3_use_geometry.s
+
+# target to generate assembly for a file
+ch3_use_geometry.cpp.s:
+	$(MAKE) -f CMakeFiles/ch3_use_geometry_main.dir/build.make CMakeFiles/ch3_use_geometry_main.dir/ch3_use_geometry.cpp.s
+.PHONY : ch3_use_geometry.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +199,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ch3_use_eigen_main"
 	@echo "... edit_cache"
+	@echo "... ch3_use_geometry_main"
 	@echo "... ch3_use_eigen.o"
 	@echo "... ch3_use_eigen.i"
 	@echo "... ch3_use_eigen.s"
+	@echo "... ch3_use_geometry.o"
+	@echo "... ch3_use_geometry.i"
+	@echo "... ch3_use_geometry.s"
 .PHONY : help
 
 

@@ -49,4 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ch3_use_eigen_main.dir/DependInfo.cmake"
+  "CMakeFiles/ch3_use_geometry_main.dir/DependInfo.cmake"
   )
