@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ch4_use_s.dir/main.cpp.o  -o ch4_use_s 

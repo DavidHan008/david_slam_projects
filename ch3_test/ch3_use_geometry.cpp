@@ -33,29 +33,14 @@ int main()
      matrix_T.rotate(rotation_vector.matrix());
     std::cout<<"result:"<<matrix_T.matrix()<<std::endl;
 
-    //转换成四元数，如何进行
+    //转换成四元数,输入的可以四元数，也可以是旋转矩阵
     Eigen::Quaterniond quater=Eigen::Quaterniond(rotation_vector);
     std::cout<<"Quateriond:"<<quater.coeffs().transpose()<<std::endl;//四元数的顺序是（x,y,z,w）
 
+    //通过旋转矩阵来构建四元数
+    Eigen::Quaterniond matrix_2_quater=Eigen::Quaterniond(rotation_matrix);
+    std::cout<<"matrix2quater:"<<matrix_2_quater.coeffs().transpose()<<std::endl;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
 }
 
